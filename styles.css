@@ -41,11 +41,13 @@ img {
   border-radius: 1rem;
 }
 
-strong {
+h1 {
   font-weight: 700;
   font-family: "Outfit", sans-serif;
   font-size: 26px;
   color: var(--slate-900);
+  padding: 0;
+  margin: 0;
 }
 
 span {
@@ -55,12 +57,11 @@ span {
   font-weight: 400;
 }
 
-
 /* Feel free to remove these styles or customise in your own stylesheet 👍 */
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
